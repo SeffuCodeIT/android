@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#f4af1a"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="10sp"
+        android:textStyle="bold|italic"
+        android:id="@+id/edtmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15sp"
+        android:background="#020000"
+        android:ems="10"
+        android:hint="Name@email.com...."
+        android:inputType="textEmailAddress"
+        android:textColor="#f7b736"
+        android:textColorHint="#f7b736"
+        android:textSize="26sp" />
+
+    <EditText
+        android:layout_marginBottom="15sp"
+        android:background="#020000"
+        android:textStyle="bold|italic"
+        android:textColor="#f7b736"
+        android:textColorHint="#f7b736"
+        android:textSize="26sp"
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginRight="5dp"
+            android:textStyle="bold|italic"
+            android:textColor="#f7b736"
+            android:background="#000000"
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LOG IN" />
+
+        <Button
+            android:textStyle="bold|italic"
+            android:textColor="#f7b736"
+            android:background="#000000"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REGISTER" />
+    </LinearLayout>
+</LinearLayout>

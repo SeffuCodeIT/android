@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:background="#333"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="82dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/shulea" />
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textColor="#f5ee20"
+        android:id="@+id/tv1"
+        android:layout_width="91dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Vitamin A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toEndOf="@+id/img1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="87dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="245dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="267dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1"
+        app:layout_constraintVertical_bias="0.419"
+        app:srcCompat="@drawable/shule" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="96dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="96dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="95dp"
+        android:text="Vitamin B"
+        android:textColor="#f9ef3e"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img2"
+        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+    <ImageButton
+        android:id="@+id/img3"
+        android:layout_width="95dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/img4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img2"
+        app:srcCompat="@drawable/shulei" />
+
+    <ImageButton
+        android:id="@+id/img4"
+        android:layout_width="94dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3"
+        app:srcCompat="@drawable/shuleo" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="97dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="102dp"
+        android:text="Vitamin C"
+        android:textColor="#ecd73a"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img3"
+        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="154dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="85dp"
+        android:text="Vitamin D"
+        android:textColor="#f1d457"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img4"
+        app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a colour for the app" />
+
+    <Button
+        android:id="@+id/btnred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED" />
+
+    <Button
+        android:id="@+id/btnyellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GREEN" />
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YELLOW" />
+</LinearLayout>

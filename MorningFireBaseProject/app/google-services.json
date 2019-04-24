@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "147545005921",
+    "firebase_url": "https://morningfirebase-app.firebaseio.com",
+    "project_id": "morningfirebase-app",
+    "storage_bucket": "morningfirebase-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147545005921:android:22b70c5f64538a39",
+        "android_client_info": {
+          "package_name": "com.seffu.morningfirebaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147545005921-kjffuh2lpncfrg90572vloeee0lgbano.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1h072JpTUvTXMI6jtvN7rCrv34sVg4Go"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MorningProjectEight</string>
+    <string-array name="watu">
+        <item>King</item>
+        <item>Seffu</item>
+        <item>Nelly</item>
+        <item>Kama</item>
+        <item>John</item>
+        <item>Vee</item>
+        <item>Sam</item>
+        <item>Andy</item>
+        <item>Willy</item>
+        <item>Angie</item>
+        <item>Tertius</item>
+        <item>Raymond</item>
+        <item>Kiprop</item>
+        <item>Ian</item>
+        <item>Ivan</item>
+        <item>Daisy</item>
+        <item>Stacy</item>
+        <item>Ken</item>
+        <item>Mwas</item>
+        <item>Gilbert</item>
+    </string-array>
+</resources>
